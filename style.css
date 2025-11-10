@@ -1,0 +1,63 @@
+/* 1. Thân trang (body) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* 2. Phần đầu trang (header) */
+header {
+  background-color: #cfe2ff;
+  padding: 20px;
+}
+
+/* 3. Thanh điều hướng (nav) */
+nav {
+  background-color: #9ec5fe;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  width: 120px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* 4. Nội dung chính (main) */
+main {
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* 5. Chân trang (footer) */
+footer {
+  background-color: #d7d7d7;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 6. Tiêu đề chính (h1) */
+h1 {
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: #333366;
+}
+
+/* 7. Đoạn văn (p) */
+p {
+  line-height: 1.6;
+}
